@@ -1,0 +1,9 @@
+Scenario: Gmail Login Functionality
+
+Given the user is on the Gmail login page
+When the user enters a valid email address
+And clicks the "Next" button
+And enters the correct password
+And clicks the "Sign in" button
+Then the user should be redirected to their Gmail inbox
+And the inbox should display the user's emails
